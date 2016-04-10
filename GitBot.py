@@ -10,4 +10,4 @@ while True:
     subprocess.call("git add .", shell=True)
     subprocess.call("git commit -m timestamp", shell=True)
     subprocess.call("git push origin master", shell=True)
-    time.sleep(10)
+    time.sleep(1)
